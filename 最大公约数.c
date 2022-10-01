@@ -7,7 +7,7 @@ int main()
     int n = 0;
     int r = 0;
     scanf_s("%d%d", &m, &n);
-
+    // 你好 我们相遇了
     while (r = m % n)
     {
         m = n;
