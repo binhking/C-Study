@@ -19,7 +19,7 @@ int fib(int n)
 int main()
 {
     int n = 0;
-    scanf("%d", &n);
+    scanf_s("%d", &n);
     int rel = fib(n);
     printf("第%d次 的结果是： %d\n", n, rel);
     return 0;
