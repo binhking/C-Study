@@ -15,6 +15,6 @@ int main()
 {
     char arr[] = "bit";
     int len = str_len(arr);
-    printf("%s ×Ö·û³¤¶È£º%d\n", arr, len);
+    printf("%s å­—ç¬¦é•¿åº¦ï¼š%d\n", arr, len);
     return 0;
 }
