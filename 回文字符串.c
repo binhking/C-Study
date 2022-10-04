@@ -14,7 +14,8 @@ int PalindromeAround(char *s, int l, int r, int length)
 }
 
 char *longestPalindrome(char *s)
-{ //中心扩散法
+{
+    //中心扩散法
     int length = 0;
     int maxLength = 1;
     int begin = 0;
