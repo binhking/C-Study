@@ -2,6 +2,7 @@
 using namespace std;
 
 /* 方法四：递归分成两份，分别求每个分割后子列的最大和，时间复杂度为 O(n*logn)*/
+
 /* 返回三者中最大值*/
 int Max3(int A, int B, int C)
 {
