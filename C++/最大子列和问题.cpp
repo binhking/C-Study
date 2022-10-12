@@ -8,6 +8,7 @@ int Max3(int A, int B, int C)
 {
     return (A > B) ? ((A > C) ? A : C) : ((B > C) ? B : C);
 }
+
 /* 分解成更小规模求解*/
 int DivideAndConquer(int a[], int left, int right)
 {
